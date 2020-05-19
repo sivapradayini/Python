@@ -1,0 +1,20 @@
+print("Using available datatypes in python")
+
+print("---------------------------------")
+a = input("Enter an integer:")
+n = int(a)
+print(a)
+print(type(a))
+print(type(n))
+print("---------------------------------")      
+b = input("Enter a String")
+print(b)
+print(type(b))
+
+print("---------------------------------")
+a = input("Enter a float:")
+n = float(a)
+print(a)
+print(type(a))
+print(type(n))
+
