@@ -1,0 +1,30 @@
+import operator
+o = operator.iadd(2, 3); 
+y = operator.iconcat('yoljk','zooj') 
+x = operator.isub(2, 3); 
+z = operator.imul(2, 3); 
+m = operator.imod(10, 6); 
+n = operator.itruediv(10, 5); 
+print(o,y,x,z,m,n)
+a = 100
+b = 20
+p = operator.iadd(a, b); 
+q = operator.isub(a, b); 
+r = operator.imul(a, b); 
+s = operator.imod(a, b); 
+t = operator.itruediv(a, b);
+print(p,q,r,s,t)
+u = operator.ixor(10,5); 
+v = operator.ipow(2,3); 
+print(u)
+print(v)
+
+t = operator.ior(10,5); 
+l = operator.iand(5,4); 
+print(t)
+print(l)
+
+c = operator.ilshift(8,2); 
+d = operator.irshift(8,2); 
+print(c)
+print(d)
